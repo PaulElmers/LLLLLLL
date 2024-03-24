@@ -1,0 +1,81 @@
+.header_class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgray;
+  }
+  .text_blocks {
+    align-items: center;
+    background-color: lightgray;
+  }
+  .text_block_vehicle {
+    margin: 30% 10px;
+    padding: 10px;
+  }
+  .text_block_mathematic {
+    margin: 10px;
+    padding: 10px;
+  }
+  li {
+    margin-right: 10px;
+  }
+  h3 {
+    text-align: center;
+  }
+  .text_bold {
+    font-weight: 600;
+  }
+  .formula {
+    background-color: rgb(229, 143, 166);
+    padding: 5px 10px;
+  }
+  .accent {
+    font-style: italic;
+    color: brown;
+    font-weight: bold;
+  }
+  .formula_paragraph {
+    font-family: "Courier New", Courier monospace, sans-serif;
+    text-align: center;
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+  }
+  a:hover {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .span_sup {
+    color: blue;
+  }
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgba(13, 13, 13, 0.8);
+  }
+  .notes p {
+    font-size: 10px;
+  }
+  .top_text_class {
+    text-align: right;
+    padding: 5px 50px 0 0;
+  }
+  #italic_text {
+    font-style: italic;
+  }
+  #normal_text {
+    font-size: 10px;
+  }
